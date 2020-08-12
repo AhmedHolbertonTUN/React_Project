@@ -1,0 +1,13 @@
+.red {
+  color: #FF0000;
+  }
+  .title {
+    font-family: Impact, Charcoal, sans-serif;
+    font-size: 45px;
+    letter-spacing: 2px;
+    word-spacing: 2.6px;
+    font-weight: 400;
+    font-style: italic;
+    font-variant: small-caps;
+    text-transform: none;
+    }
