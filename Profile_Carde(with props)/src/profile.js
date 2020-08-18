@@ -25,8 +25,7 @@ export default function Profile(props) {
 
 Profile.defaultProps = {
   name: "Elon Musk",
-  bio:
-    "Elon Musk is a South African-born American entrepreneur and businessman who founded X.com in 1999 (which later became PayPal), SpaceX in 2002 and Tesla Motors in 2003. Musk became a multimillionaire in his late 20s when he sold his start-up company, Zip2, to a division of Compaq Computers.",
+  bio: "Elon Musk is a South African-born American entrepreneur and businessman who founded X.com in 1999 (which later became PayPal), SpaceX in 2002 and Tesla Motors in 2003. Musk became a multimillionaire in his late 20s when he sold his start-up company, Zip2, to a division of Compaq Computers.",
   profession: "Engineer, Industrial designer, Entrepreneur"
 };
 

@@ -1,4 +1,4 @@
-﻿# Advanced Checkpoint
+﻿# React Props checkpoint
 
 **INSTRUCTIONS**  
 
