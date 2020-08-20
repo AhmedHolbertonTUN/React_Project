@@ -28,7 +28,7 @@ export default function App() {
   for(let i=0;i<tasks.length;i++)
   if (tasks[i].id===id)
   index=i;
-  if (text !== "")
+  if (text != null && text !=="")
   tasks.splice(index, 1, {id:id , text: text});
   setTasks(tasks.filter((task)=> task.test !== todo))
   }
