@@ -1,0 +1,62 @@
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  max-width: 100%;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: space-around;
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  margin-top: 25px;
+  font-family: arial;
+}
+
+.price {
+  color: grey;
+  font-size: 22px;
+}
+
+.card button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.card button:hover {
+  opacity: 0.7;
+}
+img {
+  width: 100%;
+}
+.vertical-menu {
+  width: 250px;
+  padding-left: 25px;
+  padding-top: 5px;
+}
+
+.vertical-menu a {
+  background-color: rgb(209, 93, 93);
+  color: white;
+  font-weight: 600;
+  display: block;
+  padding: 12px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.vertical-menu a:hover {
+  background-color: rgb(78, 12, 12);
+}
