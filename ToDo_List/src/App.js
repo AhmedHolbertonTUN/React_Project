@@ -12,7 +12,7 @@ export default function App() {
 
   function handleNewTask(e){
     e.preventDefault();
-    if (newtodo === "") return
+    if (newtodo.trim() === "") return
     setTasks([...tasks, {id: Date.now(), text: newtodo}])
     e.target.reset()
     setNewtodo("")
